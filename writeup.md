@@ -48,7 +48,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 Min vs Max
 Label with least Data -  0  has  180  values.
-Label with most Data has  2  has  2010  values.
+Label with most Data -  2  has  2010  values.
 
 A bar chart showing the data distribution in validation dataset.
 
@@ -57,7 +57,7 @@ A bar chart showing the data distribution in validation dataset.
 
 Min vs Max
 Label with least Data -  0  has  30  values.
-Label with most Data has  1  has  240  values.
+Label with most Data -  1  has  240  values.
 
 
 A bar chart showing the data distribution in Test dataset.
@@ -66,7 +66,7 @@ A bar chart showing the data distribution in Test dataset.
 
 Min vs Max
 Label with least Data -  0  has  60  values.
-Label with most Data has  2  has  750  values.
+Label with most Data -  2  has  750  values.
 
 ### Design and Test a Model Architecture
 
