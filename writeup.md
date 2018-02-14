@@ -17,17 +17,6 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
-
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
@@ -36,7 +25,8 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+This is the writeup. Here's a link to the HTML file - https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.html
+You're reading it! and here is a link to my [project code](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -57,7 +47,7 @@ The len and shape functipons were called to get the data size:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing the data distribution in training dataset.
 
-[image9]:./stats_images/stat1.png "Training Set"
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/stats_images/stat1.png)
 
 Min vs Max
 Label with least Data -  0  has  180  values.
@@ -65,7 +55,8 @@ Label with most Data has  2  has  2010  values.
 
 A bar chart showing the data distribution in validation dataset.
 
-[image10]:./stats_images/stat2.png "Validation Set"
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/stats_images/stat2.png)
+
 
 Min vs Max
 Label with least Data -  0  has  30  values.
@@ -74,7 +65,7 @@ Label with most Data has  1  has  240  values.
 
 A bar chart showing the data distribution in Test dataset.
 
-[image11]:./stats_images/stat3.png "Test Set"
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/stats_images/stat3.png)
 
 Min vs Max
 Label with least Data -  0  has  60  values.
@@ -88,8 +79,10 @@ As a first step, I decided to convert the images to grayscale because the lesser
 
 Here is an example of a traffic signs images before and after grayscaling.
 
-[image12]:./stats_images/stat_color.png "Before"
-[image13]:./stats_images/stat_gray.png "After"
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/stats_images/stat_color.png)
+
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/stats_images/stat_gray.png)
+
 
 As a last step, I normalized the image data because basically it is suggested in the checkpoints for the project, is fairly straightforward and effective, and also because data normalization is normal distribution is statistically relevant for our helping in training the network easily.
 
@@ -171,11 +164,11 @@ In the leNet lab it was already used on the MNIST dataset which is a relevant ob
 
 Here are five German traffic signs that I found on the web:
 
-[image14]:./test_images/germany-traffic-sign-1.jpg "1" 
-[image15]:./test_images/germany-traffic-sign-2.jpg "2"
-[image16]:./test_images/germany-traffic-sign-3.jpg "3"
-[image17]:./test_images/germany-traffic-sign-4.jpg "4"
-[image18]:./test_images/germany-traffic-sign-5.jpg "5"
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-1.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-2.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-3.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-4.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-5.jpg)
 
 The images are difficult to classify because :
 1. They have noise in the form of watermarks.
