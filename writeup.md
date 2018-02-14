@@ -161,11 +161,11 @@ In the leNet lab it was already used on the MNIST dataset which is a relevant ob
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-1.jpg)
-![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-2.jpg)
-![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-3.jpg)
-![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-4.jpg)
-![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test_images/germany-traffic-sign-5.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test-images/germany-traffic-sign-1.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test-images/germany-traffic-sign-2.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test-images/germany-traffic-sign-3.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test-images/germany-traffic-sign-4.jpg)
+![alt text](https://github.com/arpitsri3/carND-Traffic-Sign-Classifier/blob/master/test-images/germany-traffic-sign-5.jpg)
 
 The images are difficult to classify because :
 1. They have noise in the form of watermarks.
